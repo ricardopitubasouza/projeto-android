@@ -93,7 +93,7 @@ nav a:hover{
 main{
     background-color: white;
     max-width: 810px;
-    min-width: 320px;
+ 
     padding: 20px;
     margin: auto;
     margin-bottom: 30px;
@@ -250,4 +250,20 @@ footer a{
 footer a:hover{
     text-decoration: underline;
     color: var(--cor1);
+}
+
+@media(max-width: 376px){
+    header h1{
+        font-size: 33px;
+    }
+    nav > ul > li > a{
+        font-size: 12.8px;
+    }
+    article > h1{
+        font-size: 20px;
+    }
+    article > h2{
+        font-size: 18px;
+    }
+    
 }
